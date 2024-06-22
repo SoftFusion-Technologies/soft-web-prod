@@ -284,7 +284,7 @@ const projects = [
 
 const projects2 = [
   {
-    name: 'Andina',
+    name: 'ANDINA',
     description:
       'Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ',
     tags: [
@@ -305,7 +305,7 @@ const projects2 = [
     source_code_link: 'https://azucar-andina.netlify.app/'
   },
   {
-    name: 'Travellive',
+    name: 'TRAVELLIVE',
     description:
       'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
     tags: [
@@ -326,7 +326,7 @@ const projects2 = [
     source_code_link: 'https://travelliveofficial.netlify.app/'
   },
   {
-    name: 'Ragnar',
+    name: 'RAGNAR GYM',
     description:
       'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
     tags: [
