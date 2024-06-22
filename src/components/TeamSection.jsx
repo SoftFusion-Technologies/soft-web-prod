@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { lucas, emir, alvaro, benja, brito, rafa, roberto, rago } from "../assets";
+import { lucas, emir, alvaro, benja, brito, rafa, roberto, rago, maxi } from "../assets";
 
 const people = [
   {
@@ -36,6 +36,11 @@ const people = [
     name: 'Benjamin Ragonese',
     role: 'Backend Developer / C# Developer',
     imageUrl: rago
+  },
+  {
+    name: 'Maximiliano Otta',
+    role: 'Backend Developer / React ',
+    imageUrl: maxi
   }
   // More people...
 ];

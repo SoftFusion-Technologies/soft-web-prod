@@ -43,6 +43,7 @@ import brito from "./team/brito.png";
 import rafa from "./team/rafa.png";
 import roberto from "./team/roberto.jpg";
 import rago from './team/rago.png';
+import maxi from './team/maxi.jpg';
 
 import android from "./android.jpeg";
 import estrella from "./estrella.svg";
@@ -88,6 +89,7 @@ export {
   rafa,
   roberto,
   rago,
+  maxi,
   android,
   estrella,
 };

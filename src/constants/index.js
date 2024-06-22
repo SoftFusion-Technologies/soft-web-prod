@@ -220,7 +220,7 @@ const projects = [
   {
     name: 'HAMMERX ',
     description:
-      'Creamos una página web personalizada que no solo refleja la esencia y la energía de HAMMER X, sino que también ofrece una experiencia de usuario impecable para atraer y retener clientes.Además, desarrollamos un sistema interno innovador para el equipo de Hammer X, diseñado para optimizar la gestión diaria y automatizar procesos, permitiendo al personal concentrarse en lo que realmente importa: ofrecer un servicio de primera clase. Gracias a nuestra colaboración, Hammer X ahora: Destaca en el mundo digital con una presencia en línea poderosa y atractiva.',
+      'Creamos una página web personalizada que no solo refleja la esencia y la energía de HAMMER X, sino que también ofrece una experiencia de usuario impecable para atraer y retener clientes. .Además, desarrollamos un sistema interno innovador para el equipo de Hammer X',
     tags: [
       {
         name: 'react',
@@ -241,7 +241,7 @@ const projects = [
   {
     name: 'GARAGE SHOWROOM',
     description:
-      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real: Ingresa el precio y los porcentajes para transferencias y cuotas, obteniendo resultados precisos al instante.Gestión de Ventas: Facilita las ventas.Análisis de Ventas: Visualiza gráficos detallados de ventas diarias, para un seguimiento preciso del rendimiento.Reportes de Ventas: Imprime informes detallados. El Garage Showroom ahora puede: Simplificar las transacciones con una herramienta intuitiva y eficiente.',
+      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real, obteniendo resultados precisos al instante. Facilita, Análiza y gráfica detallados de ventas',
     tags: [
       {
         name: 'react',
@@ -262,7 +262,7 @@ const projects = [
   {
     name: 'FARMACIA CENTRAL ',
     description:
-      'Farmacia Central: Tu Aliada en Cuidado y Bienestar. Qué encontrarás en nuestra landing page?, ofrece a sus clientes valiosa información sobre cuidados de la piel y productos esenciales.Encontraras: Tips de Skincare: Consejos útiles y prácticos para el cuidado diario de la piel, desde la limpieza hasta la hidratación. Rutinas de Belleza: Guías paso a paso para mantener una piel saludable y radiante.Productos Destacados: Una selección de nuestros mejores productos de skincare, con descripciones detalladas y beneficios. Ubicación y Mapa: Un mapa interactivo.',
+      'Farmacia Central: Tu Aliada en Cuidado y Bienestar. Qué encontrarás en nuestra landing page?, ofrece a sus clientes valiosa información sobre cuidados de la piel y productos esenciales.Encontraras: Tips de Skincare: Consejos útiles y prácticos para el cuidado diario de la piel',
     tags: [
       {
         name: 'react',
