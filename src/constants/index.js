@@ -279,70 +279,71 @@ const projects = [
     ],
     image: farcentral,
     source_code_link: 'https://main--farmcentralofi.netlify.app'
-  },
-  {
-    name: 'Andina',
-    description:
-      'Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: andina,
-    source_code_link: 'https://azucar-andina.netlify.app/'
-  },
-  {
-    name: 'Travellive',
-    description:
-      'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'tailwindcss',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: travellive,
-    source_code_link: 'https://travelliveofficial.netlify.app/'
-  },
-  {
-    name: 'Ragnar',
-    description:
-      'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
-    tags: [
-      {
-        name: 'html',
-        color: 'blue-text-gradient'
-      },
-      {
-        name: 'css',
-        color: 'green-text-gradient'
-      },
-      {
-        name: 'javascript',
-        color: 'pink-text-gradient'
-      }
-    ],
-    image: ragnar,
-    source_code_link: 'https://ragnar-gym.netlify.app/'
-  }
+  // },
+  // {
+  //   name: 'Andina',
+  //   description:
+  //     'Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient'
+  //     },
+  //     {
+  //       name: 'mongodb',
+  //       color: 'green-text-gradient'
+  //     },
+  //     {
+  //       name: 'tailwind',
+  //       color: 'pink-text-gradient'
+  //     }
+  //   ],
+  //   image: andina,
+  //   source_code_link: 'https://azucar-andina.netlify.app/'
+  // },
+  // {
+  //   name: 'Travellive',
+  //   description:
+  //     'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
+  //   tags: [
+  //     {
+  //       name: 'react',
+  //       color: 'blue-text-gradient'
+  //     },
+  //     {
+  //       name: 'tailwindcss',
+  //       color: 'green-text-gradient'
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient'
+  //     }
+  //   ],
+  //   image: travellive,
+  //   source_code_link: 'https://travelliveofficial.netlify.app/'
+  // },
+  // {
+  //   name: 'Ragnar',
+  //   description:
+  //     'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
+  //   tags: [
+  //     {
+  //       name: 'html',
+  //       color: 'blue-text-gradient'
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'green-text-gradient'
+  //     },
+  //     {
+  //       name: 'javascript',
+  //       color: 'pink-text-gradient'
+  //     }
+       }
+  //   ],
+  //   image: ragnar,
+  //   source_code_link: 'https://ragnar-gym.netlify.app/'
+  // }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
