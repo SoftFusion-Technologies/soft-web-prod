@@ -279,10 +279,7 @@ const projects = [
     ],
     image: farcentral,
     source_code_link: 'https://main--farmcentralofi.netlify.app'
-  }
-];
-
-const projects2 = [
+  },
   {
     name: 'ANDINA',
     description:
@@ -347,11 +344,11 @@ const projects2 = [
     source_code_link: 'https://ragnar-gym.netlify.app/'
   }
 ];
+
 export {
   services,
   technologies,
   experiences,
   testimonials,
   projects,
-  projects2
 };
