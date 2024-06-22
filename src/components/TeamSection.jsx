@@ -36,11 +36,6 @@ const people = [
     name: 'Benjamin Ragonese',
     role: 'Backend Developer / C# Developer',
     imageUrl: rago
-  },
-  {
-    name: 'Maximiliano Otta',
-    role: 'Backend Developer / C# Developer',
-    imageUrl: rago
   }
   // More people...
 ];
@@ -54,7 +49,7 @@ export default function Team() {
           <p className={`text-secondary text-[17px] max-w-3xl leading-[30px]`}>
             Descubra quiénes son las personas detrás de nuestra misión y conozca
             cómo su experiencia y habilidades se combinan para hacer de
-            SOFTFUSION un lugar exepcional para trabajar y colaborar.
+            SoftFusion un lugar exepcional para trabajar y colaborar.
           </p>
         </div>
         <ul

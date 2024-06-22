@@ -20,6 +20,9 @@ import {
   tesla,
   shopify,
   andina,
+  hammer,
+  garage,
+  farcentral,
   travellive,
   ragnar,
   threejs,
@@ -50,25 +53,29 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Asesoramiento Estratégico",
-    description: "Recibe orientación experta para desarrollar estrategias efectivas que impulsen el éxito de tu negocio.",
-    icon: web,
+    title: 'Sistemas de Gestión',
+    description:
+      'Incluye planear, controlar, y mejorar, aquellos elementos de tu organización con soluciones tecnológicas innovadoras y eficientes.',
+    icon: mobile
   },
   {
-    title: "Desarrollo de Sistemas",
-    description: "Crea soluciones tecnológicas innovadoras y eficientes con nuestro equipo de desarrolladores de sistemas.",
-    icon: mobile,
+    title: 'Paginas Web Gestionables',
+    description:
+      'Gestiona tu contenido sin complicaciones. Con nuestros sitios web administrables, mantén tu información siempre actualizada y relevante.',
+    icon: backend
   },
   {
-    title: "Capacitación en Ventas",
-    description: "Potencia tus habilidades de ventas con nuestro programa de capacitación especializado.",
-    icon: backend,
+    title: 'Landing Page / E-commerce',
+    description:
+      '¿Sabías que una Landing Page bien diseñada puede aumentar tus conversiones hasta un 300%?',
+    icon: web
   },
   {
-    title: "Crecimiento Sostenible",
-    description: "Fomenta un crecimiento empresarial sólido y sostenible con nuestras soluciones integrales.",
-    icon: creator,
-  },
+    title: 'Crecimiento Sostenible',
+    description:
+      'Fomenta un crecimiento empresarial sólido y sostenible con nuestras soluciones tecnológicas.',
+    icon: creator
+  }
 ];
 
 
@@ -211,68 +218,131 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Andina",
+    name: 'HAMMERX ',
     description:
-      "Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ",
+      'Creamos una página web personalizada que no solo refleja la esencia y la energía de HAMMER X, sino que también ofrece una experiencia de usuario impecable para atraer y retener clientes.Además, desarrollamos un sistema interno innovador para el equipo de Hammer X, diseñado para optimizar la gestión diaria y automatizar procesos, permitiendo al personal concentrarse en lo que realmente importa: ofrecer un servicio de primera clase. Gracias a nuestra colaboración, Hammer X ahora: Destaca en el mundo digital con una presencia en línea poderosa y atractiva.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'mysql',
+        color: 'green-text-gradient'
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: hammer,
+    source_code_link: 'https://hammerx-sft-prod.netlify.app/'
+  },
+  {
+    name: 'GARAGE SHOWROOM',
+    description:
+      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real: Ingresa el precio y los porcentajes para transferencias y cuotas, obteniendo resultados precisos al instante.Gestión de Ventas: Facilita las ventas.Análisis de Ventas: Visualiza gráficos detallados de ventas diarias, para un seguimiento preciso del rendimiento.Reportes de Ventas: Imprime informes detallados. El Garage Showroom ahora puede: Simplificar las transacciones con una herramienta intuitiva y eficiente.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient'
       },
+      {
+        name: 'mysql',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: garage,
+    source_code_link: 'https://elgarage-calculadora.netlify.app/'
+  },
+  {
+    name: 'FARMACIA CENTRAL ',
+    description:
+      'Farmacia Central: Tu Aliada en Cuidado y Bienestar. Qué encontrarás en nuestra landing page?, ofrece a sus clientes valiosa información sobre cuidados de la piel y productos esenciales.Encontraras: Tips de Skincare: Consejos útiles y prácticos para el cuidado diario de la piel, desde la limpieza hasta la hidratación. Rutinas de Belleza: Guías paso a paso para mantener una piel saludable y radiante.Productos Destacados: Una selección de nuestros mejores productos de skincare, con descripciones detalladas y beneficios. Ubicación y Mapa: Un mapa interactivo.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'mysql',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: farcentral,
+    source_code_link: 'https://main--farmcentralofi.netlify.app'
+  },
+  {
+    name: 'Andina',
+    description:
+      'Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
     ],
     image: andina,
-    source_code_link: "https://azucar-andina.netlify.app/",
+    source_code_link: 'https://azucar-andina.netlify.app/'
   },
   {
-    name: "Travellive",
+    name: 'Travellive',
     description:
-      "Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.",
+      'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "tailwindcss",
-        color: "green-text-gradient",
+        name: 'tailwindcss',
+        color: 'green-text-gradient'
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+        name: 'css',
+        color: 'pink-text-gradient'
+      }
     ],
     image: travellive,
-    source_code_link: "https://travelliveofficial.netlify.app/",
+    source_code_link: 'https://travelliveofficial.netlify.app/'
   },
   {
-    name: "Ragnar",
+    name: 'Ragnar',
     description:
-      "Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.",
+      'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
     tags: [
       {
-        name: "html",
-        color: "blue-text-gradient",
+        name: 'html',
+        color: 'blue-text-gradient'
       },
       {
-        name: "css",
-        color: "green-text-gradient",
+        name: 'css',
+        color: 'green-text-gradient'
       },
       {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
+        name: 'javascript',
+        color: 'pink-text-gradient'
+      }
     ],
     image: ragnar,
-    source_code_link: "https://ragnar-gym.netlify.app/",
-  },
+    source_code_link: 'https://ragnar-gym.netlify.app/'
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

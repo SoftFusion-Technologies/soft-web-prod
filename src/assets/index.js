@@ -30,6 +30,10 @@ import tesla from "./company/tesla.png";
 import andina from "./projects/andina.png";
 import travellive from "./projects/travellive.png";
 import ragnar from "./projects/ragnar.png";
+import hammer from "./projects/hammer.png"
+import garage from './projects/garage.png';
+import farcentral from './projects/farcentral.png';
+
 
 import lucas from "./team/lucas.jpg";
 import emir from "./team/emir.jpeg";
@@ -38,7 +42,7 @@ import benja from "./team/benja.jpg";
 import brito from "./team/brito.png";
 import rafa from "./team/rafa.png";
 import roberto from "./team/roberto.jpg";
-import rago from './team/roberto.jpg';
+import rago from './team/rago.png';
 
 import android from "./android.jpeg";
 import estrella from "./estrella.svg";
@@ -73,6 +77,9 @@ export {
   andina,
   travellive,
   ragnar,
+  hammer,
+  garage,
+  farcentral,
   lucas, 
   emir,
   alvaro,
