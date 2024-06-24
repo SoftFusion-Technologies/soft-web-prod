@@ -48,6 +48,7 @@ import maxi from './team/maxi.jpg';
 import android from "./android.jpeg";
 import estrella from "./estrella.svg";
 
+import carlos from './Testimonials/carlos.jpeg'
 export {
   logo,
   backend,
@@ -92,4 +93,5 @@ export {
   maxi,
   android,
   estrella,
+  carlos
 };

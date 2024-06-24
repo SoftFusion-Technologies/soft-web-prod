@@ -26,6 +26,7 @@ import {
   travellive,
   ragnar,
   threejs,
+  carlos,
 } from "../assets";
 
 export const navLinks = [
@@ -191,28 +192,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "La verdad, pensaba que armar un sitio web tan lindo como nuestro producto era imposible, pero con SoftFusion me demostraron que no hay imposibles. Estoy chocha con el resultado.",
-    name: "Ana Rodríguez",
-    designation: "CEO",
-    company: "Onirico",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      'En primer lugar, destaco la presencia que tienen de darte soluciones en el momento, la apertura a los pedidos o cambios y el hecho de mantenerse en constante comunicación con nosotros. Por otro lado, la creatividad, el conocimiento técnico, seriedad y velocidad ya que en el caso nuestro que estamos haciendo un trabajo de tamaño importante lo hicimos bastante rápido a mi criterio, y también me sorprendió un poco el hecho de que cualquier solicitud que les hago, siempre hay una solución, a pesar de por ahí ser cosas que no son sencillas, Uds. no tienen dificultad para hacerlas efectivas. Por todo esto es que sin dudas  voy a seguir trabajando con ustedes y eligiendolos.',
+    name: 'Carlos Garcia',
+    designation: 'CEO',
+    company: 'HAMMER X',
+    image: carlos
   },
   {
     testimonial:
-      "Mirá, en mi vida me crucé con pocas empresas que se preocupen posta por el éxito de sus clientes, y te juro que SoftFusion es una de ellas. Están siempre al pie del cañón, ¡un lujo!",
-    name: "Martín González",
-    designation: "Gerente",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      'Mirá, en mi vida me crucé con pocas empresas que se preocupen posta por el éxito de sus clientes, y te juro que SoftFusion es una de ellas. Están siempre al pie del cañón, ¡un lujo!',
+    name: 'Martín González',
+    designation: 'Gerente',
+    company: 'DEF Corp',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg'
   },
   {
     testimonial:
-      "Después de que SoftFusion le dio una manito mágica a nuestro sitio web, el tráfico se disparó un 50%. Ni te imaginás lo agradecidos que estamos. Estos pibes son unos genios, de verdad.",
-    name: "Sandra Vazquez",
-    designation: "CTO",
-    company: "Pink Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      'Después de que SoftFusion le dio una manito mágica a nuestro sitio web, el tráfico se disparó un 50%. Ni te imaginás lo agradecidos que estamos. Estos pibes son unos genios, de verdad.',
+    name: 'Sandra Vazquez',
+    designation: 'CTO',
+    company: 'Pink Enterprises',
+    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+  }
 ];
 
 const projects = [
