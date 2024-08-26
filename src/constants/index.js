@@ -20,6 +20,9 @@ import {
   tesla,
   shopify,
   andina,
+  shell,
+  shelllogo,
+  logofarmcentral,
   hammer,
   garage,
   farcentral,
@@ -200,151 +203,151 @@ const testimonials = [
   },
   {
     testimonial:
-      'Mirá, en mi vida me crucé con pocas empresas que se preocupen posta por el éxito de sus clientes, y te juro que SoftFusion es una de ellas. Están siempre al pie del cañón, ¡un lujo!',
-    name: 'Martín González',
-    designation: 'Gerente',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg'
+      'La verdad, no es fácil encontrar empresas que de verdad se preocupen por sus clientes, pero SoftFusion es una de esas. Siempre están ahí, atentos a todo y listos para ayudarnos en lo que sea. ¡Trabajar con ellos es como tener un equipo extra de apoyo, súper genial!"',
+    name: 'Constanza y Julieta',
+    designation: 'Encargadas de ',
+    company: 'SHELL SHOP',
+    image: shelllogo
   },
   {
     testimonial:
-      'Después de que SoftFusion le dio una manito mágica a nuestro sitio web, el tráfico se disparó un 50%. Ni te imaginás lo agradecidos que estamos. Estos pibes son unos genios, de verdad.',
-    name: 'Sandra Vazquez',
-    designation: 'CTO',
-    company: 'Pink Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg'
+      'Nos ayudaron a crear una página que realmente refleja el corazón de la farmacia de mi papá. Siempre estuvieron ahí para cualquier cosa que necesitáramos. ¡Son los mejores!',
+    name: 'Ana Sofia',
+    designation: 'Dermatóloga',
+    company: 'Farmacia Central',
+    image: logofarmcentral
   }
 ];
 
 const projects = [
   {
-    name: "HAMMERX ",
+    name: 'HAMMERX ',
     description:
-      "Creamos una página web personalizada que no solo refleja la esencia y la energía de HAMMER X, sino que también ofrece una experiencia de usuario impecable para atraer y retener clientes. .Además, desarrollamos un sistema interno innovador para el equipo de Hammer X",
+      'Creamos una página web personalizada que no solo refleja la esencia y la energía de HAMMER X, sino que también ofrece una experiencia de usuario impecable para atraer y retener clientes. .Además, desarrollamos un sistema interno innovador para el equipo de Hammer X',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "mysql",
-        color: "green-text-gradient",
+        name: 'mysql',
+        color: 'green-text-gradient'
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
     ],
     image: hammer,
-    source_code_link: "https://hammerx-sft-prod.netlify.app/",
+    source_code_link: 'https://www.hammer.ar/'
   },
   {
-    name: "GARAGE SHOWROOM",
+    name: 'GARAGE SHOWROOM',
     description:
-      "Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real, obteniendo resultados precisos al instante. Facilita, Análiza y gráfica detallados de ventas",
+      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real, obteniendo resultados precisos al instante. Facilita, Análiza y gráfica detallados de ventas',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "mysql",
-        color: "green-text-gradient",
+        name: 'mysql',
+        color: 'green-text-gradient'
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
     ],
     image: garage,
-    source_code_link: "https://elgarage-calculadora.netlify.app/",
+    source_code_link: 'https://elgarage-calculadora.netlify.app/'
   },
   {
-    name: "FARMACIA CENTRAL ",
+    name: 'FARMACIA CENTRAL ',
     description:
-      "Farmacia Central: Tu Aliada en Cuidado y Bienestar. Qué encontrarás en nuestra landing page?, ofrece a sus clientes valiosa información sobre cuidados de la piel y productos esenciales.Encontraras: Tips de Skincare: Consejos útiles y prácticos para el cuidado diario de la piel",
+      'Farmacia Central: Tu Aliada en Cuidado y Bienestar. Qué encontrarás en nuestra landing page?, ofrece a sus clientes valiosa información sobre cuidados de la piel y productos esenciales.Encontraras: Tips de Skincare: Consejos útiles y prácticos para el cuidado diario de la piel',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "mysql",
-        color: "green-text-gradient",
+        name: 'mysql',
+        color: 'green-text-gradient'
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
     ],
     image: farcentral,
-    source_code_link: "https://main--farmcentralofi.netlify.app",
-  },
+    source_code_link: 'https://farmaciacentral7.com.ar/'
+  }
 ];
 
 const projects2 = [
   {
-    name: "ANDINA",
+    name: 'SHELL SHOP MONTEROS',
     description:
-      "Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. ",
+      'Descubre la combinación perfecta de café, comodidad y servicio en Shell Shop, en soft, diseñamos una página interactiva, intuitiva y muy atractiva para SHELL SHOP.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: 'css',
+        color: 'green-text-gradient'
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+        name: 'tailwind',
+        color: 'pink-text-gradient'
+      }
     ],
-    image: andina,
-    source_code_link: "https://azucar-andina.netlify.app/",
+    image: shell,
+    source_code_link: 'https://shellshopmonteros.com.ar/'
   },
   {
-    name: "TRAVELLIVE",
+    name: 'TRAVELLIVE',
     description:
-      "Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.",
+      'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: 'react',
+        color: 'blue-text-gradient'
       },
       {
-        name: "tailwindcss",
-        color: "green-text-gradient",
+        name: 'tailwindcss',
+        color: 'green-text-gradient'
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+        name: 'css',
+        color: 'pink-text-gradient'
+      }
     ],
     image: travellive,
-    source_code_link: "https://travelliveofficial.netlify.app/",
+    source_code_link: 'https://travelliveofficial.netlify.app/'
   },
   {
-    name: "RAGNAR GYM",
+    name: 'RAGNAR GYM',
     description:
-      "Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.",
+      'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
     tags: [
       {
-        name: "html",
-        color: "blue-text-gradient",
+        name: 'html',
+        color: 'blue-text-gradient'
       },
       {
-        name: "css",
-        color: "green-text-gradient",
+        name: 'css',
+        color: 'green-text-gradient'
       },
       {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
+        name: 'javascript',
+        color: 'pink-text-gradient'
+      }
     ],
     image: ragnar,
-    source_code_link: "https://ragnar-gym.netlify.app/",
-  },
+    source_code_link: 'https://ragnar-gym.netlify.app/'
+  }
 ];
 export { services, technologies, experiences, testimonials, projects, projects2 };

@@ -33,8 +33,9 @@ import ragnar from "./projects/ragnar.png";
 import hammer from "./projects/hammer.png"
 import garage from './projects/garage.png';
 import farcentral from './projects/farcentral.png';
-
-
+import shell from './projects/shellshop.png';
+import shelllogo from './projects/shelllogo.png';
+import logofarmcentral from './projects/logofarmcentral.png'
 import lucas from "./team/lucas.jpg";
 import emir from "./team/emir.jpeg";
 import alvaro from "./team/alvaro.png";
@@ -82,6 +83,9 @@ export {
   hammer,
   garage,
   farcentral,
+  shell,
+  shelllogo,
+  logofarmcentral,
   lucas, 
   emir,
   alvaro,
