@@ -1,6 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React, { Suspense, lazy } from "react";
 import Tilt from "react-parallax-tilt";
+import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -16,14 +17,14 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring")}>
+    <motion.div variants={fadeIn("up", "spring")} >
       <Tilt
         options={{
           max: 25,
           scale: 1,
           speed: 400,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-[280px]'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -32,6 +33,7 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
             loading="lazy"
           />
+
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -70,7 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>Algunos Trabajos</p>
+        <p className={`${styles.sectionSubText} `}>Algunos Trabajos</p>
         <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
       </motion.div>
 
@@ -87,13 +89,12 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 justify-center px-4 min-h-screen">
+      <div className="mt-20 flex flex-wrap gap-7 justify-center">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
-      <div className="mt-5 flex flex-wrap gap-7 justify-center px-4">
+      <div className="hidden mt-5 md:flex flex-wrap gap-7 justify-center">
         {projects2.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
