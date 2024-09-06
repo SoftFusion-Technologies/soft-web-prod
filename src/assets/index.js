@@ -36,6 +36,7 @@ import farcentral from './projects/farcentral.png';
 import shell from './projects/shellshop.png';
 import shelllogo from './projects/shelllogo.png';
 import logofarmcentral from './projects/logofarmcentral.png'
+import conectate from './projects/conectate.png'
 import lucas from "./team/lucas.jpg";
 import emir from "./team/emir.jpeg";
 import alvaro from "./team/alvaro.png";
@@ -86,6 +87,7 @@ export {
   shell,
   shelllogo,
   logofarmcentral,
+  conectate,
   lucas, 
   emir,
   alvaro,

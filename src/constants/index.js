@@ -27,6 +27,7 @@ import {
   garage,
   farcentral,
   travellive,
+  conectate,
   ragnar,
   threejs,
   carlos,
@@ -242,9 +243,9 @@ const projects = [
     source_code_link: 'https://www.hammer.ar/'
   },
   {
-    name: 'GARAGE SHOWROOM',
+    name: 'CONECTATE GROUP',
     description:
-      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real, obteniendo resultados precisos al instante. Facilita, Análiza y gráfica detallados de ventas',
+      'Desarrollamos la página oficial de la empresa líder en servicios de Internet, con un diseño exclusivo de Soft Fusion. La plataforma ofrece soluciones de conectividad confiables para hogares y negocios, asegurando una experiencia accesible e intuitiva.',
     tags: [
       {
         name: 'react',
@@ -259,8 +260,8 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: garage,
-    source_code_link: 'https://elgarage-calculadora.netlify.app/'
+    image: conectate,
+    source_code_link: 'https://conectategroup.netlify.app/'
   },
   {
     name: 'FARMACIA CENTRAL ',
@@ -308,9 +309,9 @@ const projects2 = [
     source_code_link: 'https://shellshopmonteros.com.ar/'
   },
   {
-    name: 'TRAVELLIVE',
+    name: 'GARAGE SHOWROOM',
     description:
-      'Página oficial de Turismo y Hoteleria diseñada para ayudar a los viajeros a explorar diferentes destinos alrededor del mundo.',
+      'Desarrollamos una aplicación personalizada que transforma la manera en que gestionan sus ventas y servicios.Nuestra aplicación incluye: Calculadora de Precios en Tiempo Real, obteniendo resultados precisos al instante. Facilita, Análiza y gráfica detallados de ventas',
     tags: [
       {
         name: 'react',
@@ -325,8 +326,8 @@ const projects2 = [
         color: 'pink-text-gradient'
       }
     ],
-    image: travellive,
-    source_code_link: 'https://travelliveofficial.netlify.app/'
+    image: garage,
+    source_code_link: 'https://elgarage-calculadora.netlify.app/'
   },
   {
     name: 'RAGNAR GYM',
