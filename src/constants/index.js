@@ -30,167 +30,167 @@ import {
   conectate,
   ragnar,
   threejs,
-  carlos,
-} from "../assets";
+  carlos
+} from '../assets';
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Inicio",
+    id: 'home',
+    title: 'Inicio'
   },
   {
-    id: "about",
-    title: "Acerca",
+    id: 'about',
+    title: 'Acerca'
   },
   {
-    id: "work",
-    title: "Experiencia",
+    id: 'work',
+    title: 'Experiencia'
   },
   {
-    id: "team",
-    title: "Equipo",
+    id: 'team',
+    title: 'Equipo'
   },
   {
-    id: "contact",
-    title: "Contacto",
-  },
+    id: 'contact',
+    title: 'Contacto'
+  }
 ];
 
 const services = [
   {
-    title: "Sistemas de Gestión",
+    title: 'Sistemas de Gestión',
     description:
-      "Incluye planear, controlar, y mejorar, aquellos elementos de tu organización con soluciones tecnológicas innovadoras y eficientes.",
-    icon: mobile,
+      'Incluye planear, controlar, y mejorar, aquellos elementos de tu organización con soluciones tecnológicas innovadoras y eficientes.',
+    icon: mobile
   },
   {
-    title: "Paginas Web Gestionables",
+    title: 'Paginas Web Gestionables',
     description:
-      "Gestiona tu contenido sin complicaciones. Con nuestros sitios web administrables, mantén tu información siempre actualizada y relevante.",
-    icon: backend,
+      'Gestiona tu contenido sin complicaciones. Con nuestros sitios web administrables, mantén tu información siempre actualizada y relevante.',
+    icon: backend
   },
   {
-    title: "Landing Page / E-commerce",
+    title: 'Landing Page / E-commerce',
     description:
-      "¿Sabías que una Landing Page bien diseñada puede aumentar tus conversiones hasta un 300%?",
-    icon: web,
+      '¿Sabías que una Landing Page bien diseñada puede aumentar tus conversiones hasta un 300%?',
+    icon: web
   },
   {
-    title: "Crecimiento Sostenible",
+    title: 'Crecimiento Sostenible',
     description:
-      "Fomenta un crecimiento empresarial sólido y sostenible con nuestras soluciones tecnológicas.",
-    icon: creator,
-  },
+      'Fomenta un crecimiento empresarial sólido y sostenible con nuestras soluciones tecnológicas.',
+    icon: creator
+  }
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: 'HTML 5',
+    icon: html
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: 'CSS 3',
+    icon: css
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: 'JavaScript',
+    icon: javascript
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: 'TypeScript',
+    icon: typescript
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: 'React JS',
+    icon: reactjs
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: 'Redux Toolkit',
+    icon: redux
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: 'Tailwind CSS',
+    icon: tailwind
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: 'Node JS',
+    icon: nodejs
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: 'MongoDB',
+    icon: mongodb
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: 'Three JS',
+    icon: threejs
   },
   {
-    name: "git",
-    icon: git,
+    name: 'git',
+    icon: git
   },
   {
-    name: "figma",
-    icon: figma,
+    name: 'figma',
+    icon: figma
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: 'docker',
+    icon: docker
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: 'React.js Developer',
+    company_name: 'Starbucks',
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: '#383E56',
+    date: 'March 2020 - April 2021',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.'
+    ]
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: 'React Native Developer',
+    company_name: 'Tesla',
     icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    iconBg: '#E6DEDD',
+    date: 'Jan 2021 - Feb 2022',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.'
+    ]
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: 'Web Developer',
+    company_name: 'Shopify',
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: '#383E56',
+    date: 'Jan 2022 - Jan 2023',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.'
+    ]
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: 'Full stack Developer',
+    company_name: 'Meta',
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: '#E6DEDD',
+    date: 'Jan 2023 - Present',
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+      'Implementing responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and providing constructive feedback to other developers.'
+    ]
+  }
 ];
 
 const testimonials = [
@@ -204,15 +204,15 @@ const testimonials = [
   },
   {
     testimonial:
-      'La verdad, no es fácil encontrar empresas que de verdad se preocupen por sus clientes, pero SoftFusion es una de esas. Siempre están ahí, atentos a todo y listos para ayudarnos en lo que sea. ¡Trabajar con ellos es como tener un equipo extra de apoyo, súper genial!"',
+      'Queremos destacar lo increíble que ha sido trabajar con SoftFusion. Siempre atentos, disponibles para cualquier consulta o cambio, y sobre todo, comprometidos con brindar soluciones efectivas.',
     name: 'Constanza y Julieta',
-    designation: 'Encargadas de ',
+    designation: 'Encargadas',
     company: 'SHELL SHOP',
     image: shelllogo
   },
   {
     testimonial:
-      'Nos ayudaron a crear una página que realmente refleja el corazón de la farmacia de mi papá. Siempre estuvieron ahí para cualquier cosa que necesitáramos. ¡Son los mejores!',
+      'Destacar que nos ayudaron a crear una página web que captura perfectamente la esencia de lo que significa la farmacia de mi papá para nosotros. Estuvieron siempre disponibles para cualquier cosa que necesitáramos, brindando un servicio cálido y profesional.',
     name: 'Ana Sofia',
     designation: 'Dermatóloga',
     company: 'Farmacia Central',
@@ -351,4 +351,11 @@ const projects2 = [
     source_code_link: 'https://ragnar-gym.netlify.app/'
   }
 ];
-export { services, technologies, experiences, testimonials, projects, projects2 };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  projects2
+};
