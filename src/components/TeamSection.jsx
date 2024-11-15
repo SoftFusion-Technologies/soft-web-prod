@@ -1,21 +1,16 @@
 import { styles } from "../styles";
-import { lucas, emir, alvaro, benja, brito, rafa, roberto, rago, maxi } from "../assets";
+import { balts, ayllen, sabrina, benja, brito, rafa, roberto, rago, maxi } from "../assets";
 
 const people = [
   {
     name: 'Benjamin Orellana',
-    role: 'Founder / CEO',
+    role: 'Founder / CEO / Technical Leader',
     imageUrl: benja
   },
   {
-    name: 'Lucas Albornoz',
-    role: 'FullStack Developer / Python Developer',
-    imageUrl: lucas
-  },
-  {
-    name: 'Emir Segovia',
-    role: 'FullStack Developer / QA Automation',
-    imageUrl: emir
+    name: 'Maximiliano Otta',
+    role: 'Backend Developer / React ',
+    imageUrl: maxi
   },
   {
     name: 'Lucas Brito',
@@ -23,9 +18,9 @@ const people = [
     imageUrl: brito
   },
   {
-    name: 'Alvaro Aguilar',
-    role: '.Net Developer / React / MySQL',
-    imageUrl: alvaro
+    name: 'Benjamin Ragonese',
+    role: 'Backend Developer / C# Developer',
+    imageUrl: rago
   },
   {
     name: 'Rafael Peralta',
@@ -33,14 +28,19 @@ const people = [
     imageUrl: rafa
   },
   {
-    name: 'Benjamin Ragonese',
-    role: 'Backend Developer / C# Developer',
-    imageUrl: rago
+    name: 'Baltazar Almiron',
+    role: 'Backend Developer / React / Business ',
+    imageUrl: balts
   },
   {
-    name: 'Maximiliano Otta',
-    role: 'Backend Developer / React ',
-    imageUrl: maxi
+    name: 'Ayllen Gramajo',
+    role: 'Community Manager /Web Developer /',
+    imageUrl: ayllen
+  },
+  {
+    name: 'Sabrina Paolini',
+    role: 'Business / Marketing',
+    imageUrl: sabrina
   }
   // More people...
 ];

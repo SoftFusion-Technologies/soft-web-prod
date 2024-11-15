@@ -37,9 +37,9 @@ import shell from './projects/shellshop.png';
 import shelllogo from './projects/shelllogo.png';
 import logofarmcentral from './projects/logofarmcentral.png'
 import conectate from './projects/conectate.png'
-import lucas from "./team/lucas.jpg";
-import emir from "./team/emir.jpeg";
-import alvaro from "./team/alvaro.png";
+import balts from "./team/balts.jpg";
+import ayllen from "./team/ayllen.jpg";
+import sabrina from "./team/negro.png";
 import benja from "./team/benja.jpg";
 import brito from "./team/brito.png";
 import rafa from "./team/rafa.png";
@@ -88,9 +88,9 @@ export {
   shelllogo,
   logofarmcentral,
   conectate,
-  lucas, 
-  emir,
-  alvaro,
+  balts,
+  ayllen,
+  sabrina,
   benja,
   brito,
   rafa,
