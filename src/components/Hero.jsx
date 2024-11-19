@@ -5,8 +5,9 @@ import Logo3d from "../assets/Logo3d.svg";
 import LogoRosaBR from "../assets/LogoRosaBR.svg";
 import Tilt from "react-parallax-tilt";
 import Typewriter from "typewriter-effect";
-
-
+import {
+  StarsCanvas2
+} from '../components/canvas/index';
 const Hero = () => {
   return (
     <section
@@ -16,6 +17,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col lg:flex-row items-center gap-5 `}
       >
+        <StarsCanvas2></StarsCanvas2>
         <div className="w-full">
           <h1
             className={`${styles.heroHeadText} text-white text-center lg:text-left`}

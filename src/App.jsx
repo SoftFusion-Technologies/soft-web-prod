@@ -1,8 +1,22 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 
-import { About, Contact, Experience, ImageAbout, Feedbacks, Hero, Navbar, Tech, Team, Works, StarsCanvas, ContactButton } from "./components";
-import Footer from "./components/Footer";
-import Valores from "./components/Valores";
+import {
+  About,
+  Contact,
+  Experience,
+  ImageAbout,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Team,
+  Works,
+  StarsCanvas,
+  StarsCanvas2,
+  ContactButton
+} from './components';
+import Footer from './components/Footer';
+import Valores from './components/Valores';
 
 const App = () => {
   return (
@@ -11,7 +25,6 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          {/* <StarsCanvas /> */}
         </div>
         <About />
         <Valores />
@@ -29,6 +42,6 @@ const App = () => {
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
