@@ -40,8 +40,13 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="w-[200px] lg:w-[400px] flex justify-end">
-          <img src={Logo3d} alt="LogoRosa" className="w-full" />
+        <div className="relative w-[200px] lg:w-[400px] flex justify-center items-center group">
+          <img
+            src={Logo3d}
+            alt="LogoRosa"
+            className="w-full relative z-10 transition-transform duration-500 group-hover:scale-105 animate-float"
+          />
+          <div className="absolute inset-0 rounded-full bg-pink opacity-50 blur-xl animate-pulseGlow transition-all duration-500 group-hover:blur-3xl group-hover:scale-110"></div>
         </div>
       </div>
     </section>
