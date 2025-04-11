@@ -8,13 +8,13 @@ const testimonials = [
     name: 'Brisa',
     role: 'Coordinadora en HammerX',
     text: 'Gracias a SoftFusion ahora tenemos una plataforma que conecta con nuestros clientes y mejora la organización interna de nuestro gimnasio.',
-    video: '/videos/brisa.mp4'
+    video: '/videos/brisa_reducido.mp4'
   },
   {
     name: 'Melisa e Ivanna',
     role: 'Farmacia San Martín',
     text: 'El trabajo con redes, diseño y presencia digital de SoftFusion transformó nuestra imagen y aumentó la conexión con nuestros clientes.',
-    video: '/videos/melisa_ivanna.mp4'
+    video: '/videos/melisa_ivanna_reducido.mp4'
   }
 ];
 
