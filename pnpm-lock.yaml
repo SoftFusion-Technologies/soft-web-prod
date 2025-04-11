@@ -17,6 +17,9 @@ importers:
       '@react-three/fiber':
         specifier: ^8.13.7
         version: 8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.165.0)
+      '@tailwindcss/line-clamp':
+        specifier: ^0.4.4
+        version: 0.4.4(tailwindcss@3.4.4)
       framer-motion:
         specifier: ^10.16.2
         version: 10.18.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -485,6 +488,11 @@ packages:
   '@remix-run/router@1.16.1':
     resolution: {integrity: sha512-es2g3dq6Nb07iFxGk5GuHN20RwBZOsuDQN7izWIisUcv9r+d2C5jQxqmgkdebXgReWfiyUabcki6Fg77mSNrig==}
     engines: {node: '>=14.0.0'}
+
+  '@tailwindcss/line-clamp@0.4.4':
+    resolution: {integrity: sha512-5U6SY5z8N42VtrCrKlsTAA35gy2VSyYtHWCsg1H87NU1SXnEfekTVlrga9fzUDrrHcGi2Lb5KenUWb4lRQT5/g==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
 
   '@tweenjs/tween.js@23.1.2':
     resolution: {integrity: sha512-kMCNaZCJugWI86xiEHaY338CU5JpD0B97p1j1IKNn/Zto8PgACjQx0UxbHjmOcLl/dDOBnItwD07KmCs75pxtQ==}
@@ -2384,6 +2392,10 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
 
   '@remix-run/router@1.16.1': {}
+
+  '@tailwindcss/line-clamp@0.4.4(tailwindcss@3.4.4)':
+    dependencies:
+      tailwindcss: 3.4.4
 
   '@tweenjs/tween.js@23.1.2': {}
 
