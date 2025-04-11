@@ -17,7 +17,7 @@ import ImageAbout from "./ImageAbout";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import ContactButton from './ContactButton';
-
+import VideoTestimonials from './VideoTestimonials'
 
 export {
   Hero,
@@ -25,6 +25,7 @@ export {
   About,
   Tech,
   Experience,
+  VideoTestimonials,
   Works,
   Team,
   Feedbacks,

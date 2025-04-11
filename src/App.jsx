@@ -10,6 +10,7 @@ import {
   Navbar,
   Tech,
   Team,
+  VideoTestimonials,
   Works,
   StarsCanvas,
   StarsCanvas2,
@@ -29,6 +30,7 @@ const App = () => {
         <About />
         <Valores />
         {/* <ImageAbout /> */}
+        <VideoTestimonials />
         <Works />
         <Team />
         <Feedbacks />
