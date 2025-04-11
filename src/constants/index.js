@@ -55,31 +55,36 @@ export const navLinks = [
     title: 'Contacto'
   }
 ];
-
 const services = [
   {
-    title: 'Sistemas de Gestión',
+    title: 'Sistemas de Ventas y Gestión de Stock',
     description:
-      'Incluye planear, controlar, y mejorar, aquellos elementos de tu organización con soluciones tecnológicas innovadoras y eficientes.',
-    icon: mobile
+      'Optimizamos la operación de tu negocio con sistemas inteligentes que controlan ventas, stock, caja y clientes en tiempo real. Automatiza procesos y toma decisiones basadas en datos.',
+    icon: mobile // cambia si tenés un ícono más representativo
   },
   {
-    title: 'Paginas Web Gestionables',
+    title: 'Sitios Web Gestionables y E-commerce',
     description:
-      'Gestiona tu contenido sin complicaciones. Con nuestros sitios web administrables, mantén tu información siempre actualizada y relevante.',
+      'Diseñamos sitios web autoadministrables, tiendas online y landing pages enfocadas en conversión. Control total del contenido y ventas desde cualquier dispositivo.',
     icon: backend
   },
   {
-    title: 'Landing Page / E-commerce',
+    title: 'Landing Pages que Venden',
     description:
-      '¿Sabías que una Landing Page bien diseñada puede aumentar tus conversiones hasta un 300%?',
+      'Una buena primera impresión vende. Creamos landing pages estratégicas que potencian tus campañas y aumentan tus conversiones hasta un 300%.',
     icon: web
   },
   {
-    title: 'Crecimiento Sostenible',
+    title: 'Community Management & Filmmaker',
     description:
-      'Fomenta un crecimiento empresarial sólido y sostenible con nuestras soluciones tecnológicas.',
+      'Gestionamos tus redes sociales de forma profesional, generamos contenido visual atractivo (videos, reels, fotografía) y aumentamos tu presencia digital.',
     icon: creator
+  },
+  {
+    title: 'Crecimiento y Posicionamiento',
+    description:
+      'Aplicamos tecnología y estrategias de marketing digital para escalar tu negocio, fidelizar clientes y construir una marca sólida y memorable.',
+    icon: creator // opcionalmente podés usar otro ícono para este
   }
 ];
 

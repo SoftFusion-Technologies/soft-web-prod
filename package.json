@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.9",
     "@react-three/fiber": "^8.13.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "framer-motion": "^10.16.2",
     "heroicons-react": "^1.4.1",
     "maath": "^0.7.0",

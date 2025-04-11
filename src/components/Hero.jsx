@@ -1,13 +1,11 @@
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { ComputersCanvas, StarsCanvas } from "./canvas";
-import Logo3d from "../assets/Logo3d.svg";
-import LogoRosaBR from "../assets/LogoRosaBR.svg";
-import Tilt from "react-parallax-tilt";
-import Typewriter from "typewriter-effect";
-import {
-  StarsCanvas2
-} from '../components/canvas/index';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { ComputersCanvas, StarsCanvas } from './canvas';
+import Logo3d from '../assets/Logo3d.svg';
+import LogoRosaBR from '../assets/LogoRosaBR.svg';
+import Tilt from 'react-parallax-tilt';
+import Typewriter from 'typewriter-effect';
+import { StarsCanvas2 } from '../components/canvas/index';
 const Hero = () => {
   return (
     <section
@@ -38,7 +36,7 @@ const Hero = () => {
             />
           </h1>
           <p className="mt-2 text-white-100 text-center lg:text-left text-[20px] ">
-            ¡Construye tu futuro empresarial con nosotros!
+            ¡Impulsá tu negocio llevalo al mundo digital con nosotros!
           </p>
         </div>
 

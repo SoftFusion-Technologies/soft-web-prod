@@ -7,34 +7,33 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, description, icon }) => (
-  <div className='w-[250px]'>
+  <div className="w-[250px]">
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=' w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
+      <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 450
         }}
-        className='relative bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-        id="cards"
+        className="relative bg-tertiary rounded-[20px] py-5 px-6 min-h-[320px] flex justify-start items-center flex-col transition-all duration-300 hover:scale-105 group"
       >
         <img
           src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
+          alt="service-icon"
+          className="w-16 h-16 object-contain mb-4"
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className="text-white text-[20px] font-bold text-center mb-2">
           {title}
         </h3>
 
-        <p className="text-center text-[15px pt-10]">
-        {description}
+        <p className="text-secondary text-[14px] text-center line-clamp-4 group-hover:line-clamp-none transition-all duration-300">
+          {description}
         </p>
-      </div>
+      </Tilt>
     </motion.div>
   </div>
 );
