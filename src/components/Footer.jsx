@@ -4,18 +4,13 @@ import Logotipo from "../../public/Logotipo.svg";
 const Footer = () => {
   return (
     <>
-
       <footer className="relative bg-primary z-10 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px] pl-10 w-full">
         <div className="flex justify-center items-center">
           <div className=" flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 block max-w-[160px]">
-                <img
-                    src={Logotipo}
-                    alt="logo"
-                    className="max-w-full"
-                />
+                  <img src={Logotipo} alt="logo" className="max-w-full" />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
                   Innovación que transforma tu mundo digital.
@@ -45,12 +40,12 @@ const Footer = () => {
                       </g>
                       <defs>
                         <clipPath id="clip0_941_15626">
-                          <rect width="20" height="20" fill="white"/>
+                          <rect width="20" height="20" fill="white" />
                         </clipPath>
                       </defs>
                     </svg>
                   </span>
-                  <span>+54 (9) 3815430503 531891</span>
+                  <span>+54 9 3815 43-0503</span>
                 </p>
               </div>
             </div>
@@ -109,7 +104,7 @@ const Footer = () => {
                     href="javascript:void(0)"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-pink sm:mr-4 lg:mr-3 xl:mr-4"
                   >
-                    <img src={x} alt="" width={14} height={14}/>
+                    <img src={x} alt="" width={14} height={14} />
                   </a>
                   <a
                     href="javascript:void(0)"
