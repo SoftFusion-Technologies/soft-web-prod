@@ -68,39 +68,16 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const Works2 = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Algunos Trabajos</p>
-        <h2 className={`${styles.sectionHeadText}`}>Proyectos.</h2>
-      </motion.div>
-
-      <div className="w-full flex bg-stars-bg bg-no-repeat bg-cover bg-center">
-        <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Los siguientes proyectos muestran nuestros conocimientos y experiencia
-          a través de ejemplos reales. Cada proyecto se describe brevemente con
-          enlaces a repositorios de código y demostraciones en vivo. Refleja
-          nuestra capacidad para resolver problemas complejos, trabajar con
-          distintas tecnologías y gestionar proyectos con eficacia.
-        </motion.p>
-      </div>
-
-      <div className="mt-20 flex flex-wrap gap-7 justify-center">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-      {/* <div className="mt-5 flex flex-wrap gap-7 justify-center">
+      <div className="-mt-20 flex flex-wrap gap-7 justify-center">
         {projects2.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div> */}
+      </div>
     </>
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works2, "work");

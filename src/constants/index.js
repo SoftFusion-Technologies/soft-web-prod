@@ -28,7 +28,10 @@ import {
   farcentral,
   travellive,
   conectate,
-  ragnar,
+  turufitness,
+  rubiperfumeria,
+  corsanera,
+  muñequita,
   threejs,
   carlos
 } from '../assets';
@@ -55,6 +58,7 @@ export const navLinks = [
     title: 'Contacto'
   }
 ];
+
 const services = [
   {
     title: 'Sistemas de Ventas y Gestión de Stock',
@@ -266,7 +270,7 @@ const projects = [
       }
     ],
     image: conectate,
-    source_code_link: 'https://conectategroup.netlify.app/'
+    source_code_link: 'https://conectategroup.ar/'
   },
   {
     name: 'FARMACIA CENTRAL ',
@@ -335,7 +339,7 @@ const projects2 = [
     source_code_link: 'https://elgarage-calculadora.netlify.app/'
   },
   {
-    name: 'RAGNAR GYM',
+    name: 'TURU FITNESS GYM',
     description:
       'Nuestra revolucionaria sala fitness tiene todo el equipamiento que necesitas para hacer deporte de una manera variada y sobre todo, efectiva.',
     tags: [
@@ -352,10 +356,48 @@ const projects2 = [
         color: 'pink-text-gradient'
       }
     ],
-    image: ragnar,
-    source_code_link: 'https://ragnar-gym.netlify.app/'
+    image: turufitness,
+    source_code_link: 'https://turufitness.netlify.app/'
+  },
+  {
+    name: 'RUBI PERFUMERÍA',
+    description:
+      'Diseñamos una tienda online elegante y funcional para Rubi Perfumería, especializada en productos capilares, perfumería y marroquinería.',
+    tags: [
+      { name: 'react', color: 'blue-text-gradient' },
+      { name: 'tailwindcss', color: 'green-text-gradient' },
+      { name: 'ecommerce', color: 'pink-text-gradient' }
+    ],
+    image: rubiperfumeria, // Asegurate de importar esta imagen arriba
+    source_code_link: 'https://rubiperfumeria.com.ar/'
+  },
+  {
+    name: 'CORSANERA INDUMENTARIA',
+    description:
+      'Corsanera es una tienda de ropa con identidad propia. Creamos una web moderna que potencia su presencia y facilita la experiencia de compra.',
+    tags: [
+      { name: 'react', color: 'blue-text-gradient' },
+      { name: 'css', color: 'green-text-gradient' },
+      { name: 'ecommerce', color: 'pink-text-gradient' }
+    ],
+    image: corsanera, // Asegurate de importar esta imagen arriba
+    source_code_link: 'https://corsanera.com.ar/'
+  },
+  {
+    name: 'MUÑEQUITA - ALQUILER DE VESTIDOS',
+    description:
+      'Diseñamos una web estética y funcional para Muñequita, especializada en alquiler de vestidos y ropa femenina. Simple, rápida y visual.',
+    tags: [
+      { name: 'html', color: 'blue-text-gradient' },
+      { name: 'css', color: 'green-text-gradient' },
+      { name: 'javascript', color: 'pink-text-gradient' }
+    ],
+    image: muñequita, // Asegurate de importar esta imagen arriba
+    source_code_link: 'https://xn--muequita-e3a.com.ar/'
   }
 ];
+
+
 export {
   services,
   technologies,

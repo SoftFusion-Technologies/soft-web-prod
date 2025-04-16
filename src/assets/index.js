@@ -29,7 +29,10 @@ import tesla from "./company/tesla.png";
 
 import andina from "./projects/andina.png";
 import travellive from "./projects/travellive.png";
-import ragnar from "./projects/ragnar.png";
+import turufitness from './projects/turufitness.png';
+import rubiperfumeria from './projects/rubiperfumeria.png';
+import corsanera from './projects/corsanera.png';
+import muñequita from './projects/muñequita.png';
 import hammer from "./projects/hammer.png"
 import garage from './projects/garage.png';
 import farcentral from './projects/farcentral.png';
@@ -37,6 +40,8 @@ import shell from './projects/shellshop.png';
 import shelllogo from './projects/shelllogo.png';
 import logofarmcentral from './projects/logofarmcentral.png'
 import conectate from './projects/conectate.png'
+
+
 import balts from "./team/balts.jpg";
 import ayllen from "./team/ayllen.jpg";
 import sabrina from "./team/negro.png";
@@ -80,7 +85,10 @@ export {
   tesla,
   andina,
   travellive,
-  ragnar,
+  turufitness,
+  rubiperfumeria,
+  corsanera,
+  muñequita,
   hammer,
   garage,
   farcentral,

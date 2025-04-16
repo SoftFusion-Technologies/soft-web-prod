@@ -12,6 +12,7 @@ import {
   Team,
   VideoTestimonials,
   Works,
+  Works2,
   StarsCanvas,
   StarsCanvas2,
   ContactButton
@@ -32,6 +33,7 @@ const App = () => {
         {/* <ImageAbout /> */}
         <VideoTestimonials />
         <Works />
+        <Works2 />
         {/* <Team /> */}
         <Feedbacks />
         <ContactButton />
