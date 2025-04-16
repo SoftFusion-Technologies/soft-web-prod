@@ -5,6 +5,12 @@ import { styles } from '../styles';
 
 const testimonials = [
   {
+    name: 'Nubia',
+    role: 'Propietaria en Turu Fitness',
+    text: 'SoftFusion se encargó de toda nuestra presencia digital: gestionaron nuestras redes, crearon contenido increíble y desarrollaron una página web que nos representa al 100%.',
+    video: '/videos/nubia.mp4'
+  },
+  {
     name: 'Brisa',
     role: 'Coordinadora en HammerX',
     text: 'Gracias a SoftFusion ahora tenemos una plataforma que conecta con nuestros clientes y mejora la organización interna de nuestro gimnasio.',
