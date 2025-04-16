@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas, StarsCanvas } from './canvas';
-import Logo3d from '../assets/Logo3d.svg';
+import Logo3d from '../assets/LogoRosaBR.svg';
 import LogoRosaBR from '../assets/LogoRosaBR.svg';
 import Tilt from 'react-parallax-tilt';
 import Typewriter from 'typewriter-effect';
