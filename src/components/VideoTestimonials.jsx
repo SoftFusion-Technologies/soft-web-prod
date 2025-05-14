@@ -52,8 +52,8 @@ const VideoTestimonialCard = ({ item, index, videoRefs, onPlay }) => {
         className="w-full h-full object-cover"
         controls
         playsInline
-        muted={index !== 0}
-        autoPlay={index === 0}
+        muted
+        autoPlay
         preload="auto"
         onPlay={() => onPlay(index)}
         aria-label={`Testimonio en video de ${item.name}`}

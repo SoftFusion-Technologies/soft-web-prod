@@ -67,12 +67,12 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          En SoftFusion, nuestra misión es clara: brindar un apoyo integral a
-          emprendedores ambiciosos como vos. Nos especializamos en ofrecer
-          asesoramiento personalizado y soluciones adaptadas a tus necesidades
-          individuales. Ya sea que estés en las etapas iniciales de tu negocio o
-          busques expandirte en el mercado, estamos aquí para guiarte en cada
-          paso del camino.
+          En SoftFusion, nuestra misión es transformar el panorama empresarial
+          mediante soluciones tecnológicas innovadoras que impulsan la
+          eficiencia, mejoran la competitividad y potencian el talento humano.
+          Nos enfocamos en crear herramientas estratégicas que unen tecnología,
+          innovación y personas, para ofrecer resultados concretos y sostenibles
+          que marcan la diferencia en el entorno corporativo.
         </motion.p>
 
         <div className="sm:mt-20 bg-stars-bg bg-no-repeat bg-cover bg-bottom">
