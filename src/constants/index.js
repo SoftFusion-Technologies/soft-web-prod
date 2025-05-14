@@ -46,13 +46,21 @@ export const navLinks = [
     title: 'Acerca'
   },
   {
+    id: 'services',
+    title: 'Servicios'
+  },
+  {
+    id: 'opiniones',
+    title: 'Opiniones'
+  },
+  {
     id: 'work',
     title: 'Experiencia'
   },
-  {
-    id: 'team',
-    title: 'Equipo'
-  },
+  // {
+  //   id: 'team',
+  //   title: 'Equipo'
+  // },
   {
     id: 'contact',
     title: 'Contacto'

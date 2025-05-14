@@ -89,7 +89,7 @@ const Navbar = () => {
         <div className="items-center gap-4 hidden lg:block ">
           <div className="cursor-pointer">
               <li className="list-none">
-                <a href="#" className="hover:text-[#FF006C] ease-in-out duration-300">Proximamente...</a>
+                <a href="#" className="hover:text-[#FF006C] ease-in-out duration-300">Proximamente Soft Academy...</a>
               </li>
           </div>
 

@@ -29,7 +29,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Valores />
+        {/* <Valores /> */}
         {/* <ImageAbout /> */}
         <VideoTestimonials />
         <Works />

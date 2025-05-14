@@ -80,7 +80,7 @@ const VideoTestimonials = () => {
   };
 
   return (
-    <section className="py-24 px-5 text-white" id="testimonios">
+    <section className="py-24 px-5 text-white" id="opiniones">
       <motion.div
         variants={textVariant()}
         initial="hidden"
