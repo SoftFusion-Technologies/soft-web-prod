@@ -5,7 +5,7 @@ import Logo3d from '../assets/LogoRosaBR.svg';
 import Tilt from 'react-parallax-tilt';
 import Typewriter from 'typewriter-effect';
 import { StarsCanvas2 } from '../components/canvas';
-import BannerVideo from '/videos/softvideo_compressed.mp4';
+import BannerVideo from '/videos/IMG_6523.mp4';
 
 const Hero = () => {
   return (
