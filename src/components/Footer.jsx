@@ -50,22 +50,24 @@ const Footer = () => {
               </div>
             </div>
 
-            <LinkGroup header="Resources">
-              <NavLink link="/#" label="SaaS Development" />
-              <NavLink link="/#" label="Our Products" />
-              <NavLink link="/#" label="User Flow" />
-              <NavLink link="/#" label="User Strategy" />
+            <LinkGroup header="Servicios">
+              <NavLink link="#services" label="Desarrollo a Medida" />
+              <NavLink link="#services" label="Gestión de Redes" />
+              <NavLink link="#services" label="Software de Ventas" />
+              <NavLink link="#services" label="Creación de Contenido" />
             </LinkGroup>
-            <LinkGroup header="Company">
-              <NavLink link="/#" label="About SoftFusion" />
-              <NavLink link="/#" label="Contact & Support" />
-              <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
+
+            <LinkGroup header="Empresa">
+              <NavLink link="#about" label="Sobre Soft Fusion" />
+              <NavLink link="#contact" label="Contacto y Soporte" />
+              <NavLink link="#opiniones" label="Casos de Éxito" />
+              <NavLink link="/politicas" label="Políticas y Privacidad" />
             </LinkGroup>
-            <LinkGroup header="Quick Links">
-              <NavLink link="/#" label="Premium Support" />
-              <NavLink link="/#" label="Our Services" />
-              <NavLink link="/#" label="Know Our Team" />
+
+            <LinkGroup header="Enlaces Rápidos">
+              <NavLink link="#work" label="Experiencia" />
+              <NavLink link="#testimonial" label="Testimonios" />
+              <NavLink link="/equipo" label="Conoce al Equipo" />
             </LinkGroup>
 
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">

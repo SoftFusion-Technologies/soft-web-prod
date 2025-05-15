@@ -66,7 +66,7 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
+    <div className={`mt-12 bg-black-100 rounded-[20px]`} id="testimonial">
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
