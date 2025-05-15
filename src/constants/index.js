@@ -21,7 +21,6 @@ import {
   hammer,
   garage,
   farcentral,
-  travellive,
   conectate,
   turufitness,
   rubiperfumeria,

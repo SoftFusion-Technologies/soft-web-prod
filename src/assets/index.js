@@ -23,7 +23,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 
-import travellive from "./projects/travellive.png";
 import turufitness from './projects/turufitness.png';
 import rubiperfumeria from './projects/rubiperfumeria.png';
 import corsanera from './projects/corsanera.png';
@@ -38,12 +37,10 @@ import conectate from './projects/conectate.png'
 
 
 import balts from "./team/balts.jpg";
-import ayllen from "./team/ayllen.jpg";
 import sabrina from "./team/negro.png";
 import benja from "./team/benja.jpg";
 import brito from "./team/brito.png";
 import rafa from "./team/rafa.png";
-import roberto from "./team/roberto.jpg";
 import rago from './team/rago.png';
 import maxi from './team/maxi.jpg';
 
@@ -74,7 +71,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  travellive,
   turufitness,
   rubiperfumeria,
   corsanera,
@@ -87,12 +83,10 @@ export {
   logofarmcentral,
   conectate,
   balts,
-  ayllen,
   sabrina,
   benja,
   brito,
   rafa,
-  roberto,
   rago,
   maxi,
   android,

@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { balts, ayllen, sabrina, benja, brito, rafa, roberto, rago, maxi } from "../assets";
+import { balts, sabrina, benja, brito, rafa, rago, maxi } from "../assets";
 
 const people = [
   {
@@ -32,11 +32,11 @@ const people = [
     role: 'Backend Developer / React / Business ',
     imageUrl: balts
   },
-  {
-    name: 'Ayllen Gramajo',
-    role: 'Community Manager /Web Developer /',
-    imageUrl: ayllen
-  },
+  // {
+  //   name: 'Ayllen Gramajo',
+  //   role: 'Community Manager /Web Developer /',
+  //   imageUrl: ayllen
+  // },
   {
     name: 'Sabrina Paolini',
     role: 'Business / Marketing',
