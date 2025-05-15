@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
 import { styles } from '../styles';
 import FaqsInstagram from './Components/FaqsInstagram';
+import FaqsComunes from './Components/FaqsComunes';
 const Plans = () => {
   return (
     <section className="bg-stars-bg bg-no-repeat bg-cover bg-bottom py-12 px-4 sm:px-8">
@@ -68,6 +69,7 @@ const Plans = () => {
       </motion.div>
       <motion.div className="mt-10">
         <FaqsInstagram></FaqsInstagram>
+        <FaqsComunes></FaqsComunes>
       </motion.div>
     </section>
   );
