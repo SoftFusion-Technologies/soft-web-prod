@@ -3,22 +3,17 @@ import { BrowserRouter } from 'react-router-dom';
 import {
   About,
   Contact,
-  Experience,
-  ImageAbout,
   Feedbacks,
   Hero,
   Navbar,
   Tech,
-  Team,
   VideoTestimonials,
   Works,
   Works2,
   StarsCanvas,
-  StarsCanvas2,
   ContactButton
 } from './components';
 import Footer from './components/Footer';
-import Valores from './components/Valores';
 
 const App = () => {
   return (

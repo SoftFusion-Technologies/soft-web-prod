@@ -14,7 +14,7 @@ import Works from './Works';
 import Works2 from './Works2';
 import Team from './TeamSection';
 import Feedbacks from './Feedbacks';
-import ImageAbout from './ImageAbout';
+// import ImageAbout from './ImageAbout';
 import Contact from './Contact';
 import CanvasLoader from './Loader';
 import ContactButton from './ContactButton';
@@ -31,7 +31,7 @@ export {
   Works2,
   Team,
   Feedbacks,
-  ImageAbout,
+  // ImageAbout,
   Contact,
   CanvasLoader,
   EarthCanvas,
